@@ -1,0 +1,17 @@
+{
+  "package_name": "rcn-commons",
+  "version": "0.0.1",
+  "description": "set of tools used in other rcn projects",
+  "authors": [
+    "RCN"
+  ],
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "rcn"
+  ],
+  "license": "MIT"
+}
