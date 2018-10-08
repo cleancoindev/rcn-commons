@@ -1,4 +1,4 @@
-const { expectThrow } = require('../helpers/expectThrow');
+const { expectThrow } = require('../helpers/ExpectThrow');
 const { EVMRevert } = require('../helpers/EVMRevert');
 
 const Ownable = artifacts.require('Ownable');
