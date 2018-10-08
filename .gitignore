@@ -37,3 +37,6 @@ build/
 
 # truffle
 .node-xmlhttprequest-*
+
+# Other
+package-lock.json
