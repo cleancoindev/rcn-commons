@@ -21,9 +21,7 @@ library SafeMath {
     }
 
     function div(uint256 x, uint256 y) internal pure returns (uint256) {
-        require(y > 0); // Solidity only automatically asserts when dividing by 0
-        uint256 z = x / y;
-        return z;
+        return x / y;
     }
 
 }

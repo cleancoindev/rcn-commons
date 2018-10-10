@@ -63,7 +63,7 @@ function arrayToBytesOfBytes32(array) {
 }
 
 function toBytes32(source) {
-  source = web3.toHex(source);
+  source = web3.utils.toHex(source);
   const rl = 64;
   source = source.toString().replace("0x", "");
   if (source.length < rl) {
